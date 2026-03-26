@@ -3,11 +3,11 @@ version: 3
 
 images:
   base_image:
-    name: registry.redhat.io/ansible-automation-platform/ee-minimal-rhel8:2.18
+    name: registry.redhat.io/ansible-automation-platform-26/ee-minimal-rhel8:latest
 
 dependencies:
   python_interpreter:
-    python_path: /usr/bin/python3.11
+    python_path: /usr/bin/python3.12
 
   galaxy:
     collections:
