@@ -49,7 +49,7 @@ on:
       ee_image_name:
         description: "Container image name (defaults to repository name)"
         required: false
-        default: "ee-image"
+        default: "test-rhaap-portal/ee-image"
         type: string
       skip_base_image_validation:
         description: "Skip base image validation"
